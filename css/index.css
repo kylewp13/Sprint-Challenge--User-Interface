@@ -210,6 +210,19 @@ a {
     background: dodgerblue;
 }
 
+main section .about-page h1 {
+    width: 95%;
+    padding: 0 0 10px 0;
+    margin: 0 auto;
+}
+
+main section .about-page p {
+    width: 95%;
+    padding: 0 0 10px 0;
+    margin: 0 auto;
+}
+
+
 .about_container {
     width: 800px;
     margin: 25px auto;
@@ -228,7 +241,7 @@ a {
 }
 
 .button {
-    width: 150px;
+    width: 130px;
     height: 40px;
     border: 2px solid black;
     border-radius: 5px;
@@ -240,4 +253,15 @@ a {
 
 .about_img {
     margin-bottom: 20px;
+}
+
+.work_together_container {
+    width: 95%;
+    margin: 0 auto;
+    padding: 25px 0 10px 0;
+}
+
+.footer_container {
+    width: 800px;
+    margin: 0 auto;
 }
