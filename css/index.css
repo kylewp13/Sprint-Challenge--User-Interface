@@ -150,6 +150,10 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    text-transform: uppercase;
+}
+
 .container nav {
     display: flex;
     align-items: flex-end;
@@ -264,4 +268,39 @@ main section .about-page p {
 .footer_container {
     width: 800px;
     margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px;
+    align-items: center;
+}
+
+.form_container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.form_img {
+    width: 50%;
+}
+
+.form_container form input{
+    width: 100%;
+    margin: 10px 0;
+}
+
+.form_container legend {
+    margin: 10px 0;
+}
+
+#message {
+    height: 60px;
+}
+
+#submit {
+    background: gray;
+    color: white;
 }
