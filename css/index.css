@@ -144,3 +144,163 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+/* ---------------------------------------MY CSS-------------------------------- */
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-transform: uppercase;
+}
+
+.container nav {
+    display: flex;
+    align-items: flex-end;
+    padding: 25px 0;
+}
+
+.logo {
+    width: 25%;
+}
+
+.container nav .main_nav {
+    width: 75%;
+    display: flex;
+    justify-content: space-around;
+} 
+
+.jumbo_img {
+    padding: 25px 0;
+}
+
+.boxes #box1 {
+    background: teal;
+}
+
+.boxes #box2 {
+    background:gold;
+}
+
+.boxes #box3 {
+    background:cadetblue;
+}
+
+.boxes #box4 {
+    background: coral;
+}
+
+.boxes #box5 {
+    background: crimson;
+}
+
+.boxes #box6 {
+    background: forestgreen;
+}
+
+.boxes #box7 {
+    background: darkorchid;
+}
+
+.boxes #box8 {
+    background: hotpink;
+}
+
+.boxes #box9 {
+    background: indigo;
+}
+
+.boxes #box10 {
+    background: dodgerblue;
+}
+
+main section .about-page h1 {
+    width: 95%;
+    padding: 0 0 10px 0;
+    margin: 0 auto;
+}
+
+main section .about-page p {
+    width: 95%;
+    padding: 0 0 10px 0;
+    margin: 0 auto;
+}
+
+
+.about_container {
+    width: 800px;
+    margin: 25px auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border-top: 1px dashed black;
+    padding: 25px 0 0 0;
+}
+
+.about_box {
+    width: 45%;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.button {
+    width: 130px;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about_img {
+    margin-bottom: 20px;
+}
+
+.work_together_container {
+    width: 95%;
+    margin: 0 auto;
+    padding: 25px 0 10px 0;
+}
+
+.footer_container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px;
+    align-items: center;
+}
+
+.form_container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.form_img {
+    width: 50%;
+}
+
+.form_container form input{
+    width: 100%;
+    margin: 10px 0;
+}
+
+.form_container legend {
+    margin: 10px 0;
+}
+
+#message {
+    height: 60px;
+}
+
+#submit {
+    background: gray;
+    color: white;
+}
